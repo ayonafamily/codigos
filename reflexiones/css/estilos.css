@@ -1,0 +1,105 @@
+@font-face {
+    font-family:'FiraSansOT-Light';
+    src:url(eot/FiraSansOT-Light.eot);
+    src:local(FiraSansOT-Light),url(eot/FiraSansOT-Light.eot) format("embedded-opentype"),url(woff/FiraSansOT-Light.woff) format("woff"),url(ttf/FiraSansOT-Light.ttf) format("truetype");
+    font-weight:400;
+    font-style:normal;
+}
+
+body,html {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family:"Fira Sans",verdana,sans-serif
+}
+
+ 
+#head {
+margin: 10px;
+padding: 5px;
+background: #1F1209;
+border-radius: 5px;
+}
+#head  h1{
+	margin-left: 50px;
+font-weight: bold;
+color: white;
+}
+#head h2 {
+color: white;
+}
+#menu{
+width: 20%;
+margin: 10px;
+background:#003366;
+color:white;
+border-radius: 5px;
+float: left;
+text-align: center;
+}
+#menu li{
+display:block;
+color: white;
+}
+#menu a{color:#FFF8DC; text-decoration: none;}
+nav a:hover {
+    color:#000;
+    background:#1F1209;
+    text-decoration:underline;
+    font-size:1.5em
+}
+#menu nav ul li {
+    list-style:square;
+    margin-right:2em;
+    line-height:600%
+}
+#lado{
+color: #fff;
+background: #003366;
+border-radius: 5px;
+width:20%;
+float:right;
+margin:10px;
+padding:10px
+
+}
+#container{
+float: left;
+background:#FFF8DC;
+width: 50%;
+margin:10px;
+padding:20px;
+}
+section h2 {
+       color:#003366;
+}
+article h3 {
+    
+    color:#003366;
+}
+
+#pie {
+clear:both;
+background:#1F1209;
+margin: 10px;
+padding: 10px;
+border-radius: 5px;
+}
+
+footer{
+    margin:auto;
+    text-align: center; 
+    color:#FFF8DC;
+}
+#lado aside{text-align: center;}
+#fecha {
+    font-weight:700;
+    color:#003366;
+}
+.ligero {
+    font-size:100%;
+    font-weight:400
+}
+
+header ,footer{height: 50px%;}
