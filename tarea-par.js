@@ -46,3 +46,20 @@ var amigos =["Lucho", "Napo","Miguel","Roberto","Flavio"];
 		for (var i = 0; i < 5; i++) {
 			console.log(amigos[i])
 		}	
+
+//----------------------------------------------------------------
+
+var palos = ["c","t","p","d"];
+
+for (i=1;i<14;i++){
+	console.log(i);
+}
+
+//--------------------------------------------------------------------
+
+var cartas =[{palo:"c",valor:5},palo:"t",valor:2];
+
+
+
+
+
