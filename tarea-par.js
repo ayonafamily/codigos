@@ -7,4 +7,11 @@ si es un as que suma 20. Prueba a invocarla con varias manos de cartas con y sin
 e imprima por consola al ganador, es decir, al que obtenga mayor puntuación.    */
 
 var cartas = [{palo:"c",valor:3},{palo:"t",valor:8},{palo:"p",valor:1},{palo:"p",valor:5},{palo:"d",valor:6}]
-function puntua(cartas) {total= 0;for(i=0;i<cartas.length;i++){total = total + cartas.valor[i];console.log(total)}}
+function puntua(cartas){
+	total= 0;
+	for(i=0;i<cartas.length;i++)
+		{
+			total = total + cartas.valor[i];
+			console.log(total);
+		}
+	}
