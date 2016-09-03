@@ -43,6 +43,7 @@ for (var i = 0; i < 5; i++) {
     console.log(amigos[i])
 }
 //----------------------------------------------------------------
+/*Función que lista los 52 palos de la baraja dividos por palo   */
 
 function lista() {
     var palos = ["c", "t", "p", "d"];
