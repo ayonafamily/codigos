@@ -95,3 +95,41 @@ total=total+mano[i];
 }
 console.log(total);
 }
+/*Examen objetos*/
+//pregunta 1 corregida
+var croupier = {};
+croupier.baraja = [{palo:"c",valor:1},{palo:"c",valor:2}];
+croupier.barajar = function(){
+	croupier.baraja.reverse();
+	console.log(croupier.baraja[0].valor)
+}
+//PRegunta 2
+croupier.baraja = [{palo:"c",valor:1},{palo:"c",valor:2}];
+croupier.barajar = function(){
+	this.baraja.reverse();
+	this.baraja.reverse();
+	console.log(croupier.baraja[0].valor)
+}
+
+// Pregunta 3
+croupier.baraja = [{palo:"c",valor:1},{palo:"c",valor:2}];
+croupier.barajar = function(){
+	this.baraja.reverse();
+	console.log(croupier.baraja[0].valor)
+}
+// Pregunta 4
+var croupier = {};
+croupier.AS = 10;
+croupier.puntuar = function(mano){
+	var resultado = 0;
+	for(var i=0;i<mano.length;i++){
+		if(mano[i].valor === 1){
+			resultado = resultado + this.AS;
+		}else{
+			resultado =resultado + mano[i].valor;
+		}
+	}
+	return resultado;
+}
+ var total = croupier.puntuar([{palo:"c",valor:1},{palo:"d",valor:1},{palo:"p",valor:1},{palo:"t",valor:1}]);
+ console.log(total);
